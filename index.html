@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Skill Extractor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    input, button {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .graph-bar {
+      margin: 10px auto;
+      width: 60%;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 5px;
+      color: white;
+    }
+    .blue { background-color: #4CAF50; }
+    .purple { background-color: #6a11cb; }
+    .green { background-color: #2575fc; }
+  </style>
+</head>
+<body>
+  <h1>Upload Resume to Extract Skills</h1>
+  <form id="uploadForm">
+    <input type="file" id="resume" name="resume" accept=".pdf,.docx,image/*" required />
+    <button type="submit">Analyze</button>
+  </form>
+
+  <h2>Skills Found</h2>
+  <ul id="skillsList"></ul>
+  <div id="graphBars"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
