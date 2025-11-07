@@ -22,15 +22,15 @@ OCR & Parsing	Tesseract / Parsing logic
 Output	Web UI with skill insights
 
 ## 📂 Installation
-  # Clone the repository
-git clone https://github.com/Archana01-07/AI-resume-Analyser.git
-cd AI-resume-Analyser
+  ### Clone the repository
+  git clone https://github.com/Archana01-07/AI-resume-Analyser.git
+  cd AI-resume-Analyser
 
-  # Install dependencies
-npm install
+  ### Install dependencies
+  npm install
 
-# Start server
-node server.js
+  ### Start server
+  node server.js
 
 ## ▶️ Usage
 
